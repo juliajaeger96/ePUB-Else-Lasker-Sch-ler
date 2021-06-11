@@ -1,7 +1,0 @@
-Workflow
-Pipeline-Reihenfolge
-
-pipeline_xhtml.xpl
--> (pipeline_fallback.xpl) wenn nötig
--> pipeline_register.xpl
--> pipeline_epub.xpl
