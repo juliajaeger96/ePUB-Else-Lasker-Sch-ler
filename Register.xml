@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Register</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+       
+
+    </teiHeader>
+    <text><body><p>
+        <!-- xml:id durchnummeriert: p = Person, o = Orte, b = Sachbregiffe, k = körperschaften, w = Werke-->
+        <!-- Personenregister -->
+        <listPerson type="historical">
+            <person xml:id="p_01">
+                <persName>
+                    <roleName>Direktor</roleName> 
+                    <roleName>Doktor</roleName>
+                    <forename>Nicolaas </forename><forename>Johannes</forename>
+                    <surname>Berversen</surname>
+                </persName>
+                <idno type="GND">http://d-nb.info/gnd/1041936931</idno>
+                <birth>1860</birth>
+                <death>1932</death>
+                <occupation></occupation>
+                
+                <sex value="1">männlich</sex>
+                
+                
+                <note source="#l_03" type="married">Nicolaas Beversen heiratete seine Frau Angelina Alida Jeannette van Suchtelen am <date when="1884-08-28">28. August 1884.
+                </date></note>
+            </person>
+            <person xml:id="p_02">
+                <persName><forename>Paul</forename> <surname>Cassirer</surname></persName>
+                <idno type="GND">http://d-nb.info/gnd/118870645</idno>
+                <birth>1871</birth>
+                <death>1926</death>
+                
+                <sex value="1">männlich</sex>
+                <note type="friends">Paul Cassirer hat in seinem <orgName ref="Register.xml#k_01">Verlag</orgName> unter anderem auch einige Gedichtsbände von Else Lasker-Schüler publiziert.</note>
+            </person>
+            <person xml:id="p_03">
+                <persName>Hertjes <roleName>Oberrabiner</roleName></persName>
+                
+                <sex value="1">männlich</sex>
+            </person>
+            <person xml:id="p_04">
+                <persName><forename>Else </forename><surname type="linked">Lasker-Schüler</surname>
+                <addName type="pseudonym">Jussuf, Prinz</addName>
+                <addName type="pseudonym" ref="#b_01">Prinz von Theben</addName>
+                    <addName type="pseudonym">blauer Jaguar Jussuf</addName>
+                    <addName type="pseudonym">Prinz und Matrose</addName>
+                    </persName>
+                <idno type="GND">http://d-nb.info/gnd/118569880</idno>
+                <birth>1869</birth>
+                <death>1945</death>
+                
+                <sex value="2">weiblich</sex>
+                <note source="#l_07" type="friends">Else Lasker-Schüler und Nicolaas Johannes Beversen lernten sich um <date when="1905">1905</date> kennen. Beversen unterstütze Else, indem er Lesungen in den Niederlanden organisierte oder in Zeitungen über sie schrieb.
+                </note>
+            </person>
+            <person xml:id="p_05">
+                <persName><forename>Friedrich</forename> <forename>Andreas</forename> <surname>Meyer</surname>
+                <addName type="pseudonym">Andreas, Friedrich</addName></persName>
+                <idno type="GND">http://d-nb.info/gnd/132088568</idno>
+                <birth>1888</birth>
+                <death>1978</death>
+                <sex value="1">männlich</sex>
+                <note source="#l_08" type="friends">Meyer und Lasker-Schüler lernten sich noch zur Studeinzeit durch die Monatsschrift Die Freistatt. Alljüdische Revue, in der Meyer kurzzeitig Mitfinanzier war und in der Lasker-Schüler Lyrik und Prosa vorstellte. 
+                    
+                </note>
+            </person>
+            <person xml:id="p_06">
+                <persName><forename>Angelina</forename><forename> Alida</forename> <forename>Jeannette</forename> <surname>van Suchtelen</surname></persName>
+                <idno>https://www.geni.com/people/Angelina-Alida-Jeannette-van-Suchtelen/6000000051245112885</idno>
+                <birth>1828</birth>
+                <death>1888</death>
+                <sex value="2">weiblich</sex>
+            </person>
+            <person xml:id="p_07">
+                <persName><forename>Victor</forename> <forename>Emanuel</forename> <surname>van Vriesland</surname></persName>
+                <idno type="GND">http://d-nb.info/gnd/117452270</idno>
+                <birth>1892</birth>
+                <death>1974</death>
+                <sex value="1">männlich</sex>
+            </person>
+            <person xml:id="p_08">
+                <persName><forename>Emma</forename> <surname>zu Waldeck und Pyrmont</surname><roleName>Königin</roleName></persName>
+                <idno type="GND">http://d-nb.info/gnd/11895797X</idno>
+                <birth>1858</birth>
+                <death>1934</death>
+                
+                <sex value="2">weiblich</sex>
+                <note type="parent">Königin Emma ist die Mutter von Königin Wilhelmina</note>
+            </person>
+            
+            <person xml:id="p_09">
+                <persName>
+                    <addName type="alias"><surname>Walden</surname><forename>Herwarth</forename></addName>
+                    <surname>Lewin</surname><forename>Georg</forename>
+                </persName>
+                <idno type="GND">http://d-nb.info/gnd/118770950</idno>
+                <birth>1878</birth>
+                <death>1941</death>
+                
+                <sex value="2">männlich</sex>
+                <note source="#l_04" type="married">Walden war Else Lasker-Schülers zweiter Ehemann. Sie waren von 1903 bis 1913 verheiratet.
+                </note>
+            </person>
+            <person xml:id="p_10">
+                <persName><forename>Pauline</forename> <surname>zu Wied</surname>
+                <roleName>Fürstin</roleName>
+                <forename>Pauline</forename><surname>von Württemberg</surname></persName>
+                <idno type="GND">http://d-nb.info/gnd/107706245</idno>
+                <birth>1877</birth>
+                <death>1965</death>
+                
+                <sex value="2">weiblich</sex>
+                <note type="cousine">Pauline zu Wied war die Cousine von Königin Wilhelmina</note>
+            </person>
+            
+            <person xml:id="p_11">
+                <persName><roleName>Königin</roleName> <forename>Wilhelmina</forename></persName>
+                <idno type="GND">http://d-nb.info/gnd/118771892</idno>
+                <birth>1880</birth>
+                <death>1962</death>
+               
+                <sex value="2">weiblich</sex>
+            </person>
+            <person xml:id="p_12">
+                <persName><roleName>Erbprinz</roleName> <surname>von Reuss</surname></persName>
+               
+                <birth>1895</birth>
+                <death>1945</death>
+                
+                <sex value="1">männlich</sex>
+            </person>
+           
+               
+                
+                
+                
+                
+                
+               
+            
+        </listPerson>
+        
+        
+        <!-- Körperschaftsregister -->
+        <listOrg>
+            <org xml:id="k_01" type="loge">
+                <orgName>Augustin Keller-Loge</orgName>
+                <idno type="GND">http://d-nb.info/gnd/117511250X</idno>
+                <location >
+                    <address>
+                        <settlement ref="#o_15">Schweiz</settlement>
+                        
+                    </address>
+                </location>
+            </org>
+                <org xml:id="k_02" type="hotel">
+                    <orgName>Belgischerhof Hotel</orgName>
+                    <location>
+                        <address>
+                            <settlement ref="#o_08">Köln</settlement>
+                            <addrLine>Komödienstraße am Dom</addrLine>
+                        </address>
+                    </location>
+                </org>
+            <org xml:id="k_03" type="publisher">
+                <orgName>Paul Cassirer Verlag</orgName>
+                <idno type="GND">http://d-nb.info/gnd/38136-6</idno>
+                <location from="1908" to="1931">
+                    <address>
+                        <settlement ref="#o_03">Berlin</settlement>
+                        
+                    </address>
+                </location></org>
+            
+            <org xml:id="k_04" type="publisher"><orgName>Lago-Verlag</orgName>
+                <idno type="GND">http://d-nb.info/gnd/1087535417</idno>
+                <location>
+                    <address>
+                        <settlement ref="#o_16">Zürich</settlement>
+                        
+                        
+                    </address>
+                </location></org>
+            <org xml:id="k_05" type="publisher"><orgName>Meyer Verlag</orgName>
+            <idno type="GND">http://d-nb.info/gnd/1154946967</idno>
+            <location from="1907" to="1939">
+                <address>
+                    <settlement ref="#o_03">Berlin</settlement>
+                    
+                </address>
+            </location></org>
+            
+            <org xml:id="k_06" type="hotel">
+                <orgName>Sachsenhof Hotel</orgName>
+                <orgName to="1900">Hotel Koschel</orgName>
+                <location>
+                    <address>
+                        <settlement ref="#o_03">Berlin</settlement>
+                        <addrLine>Motzstraße 78</addrLine>
+                    </address>
+                </location>
+                <note type="editorical" source="#l_04" n="S.142"><persName ref="#p_04">Else Lasker-Schüler</persName> wohnte im <orgName ref="Register.xml#k_05">Hotel Koschel</orgName> von 1918 bis 1933.</note></org>
+            
+            <org xml:id="k_07" type="publisher">
+                <orgName>Verlag Der Weißen Bücher</orgName>
+                
+                <location>
+                    <address>
+                        <settlement ref="#o_11">Leipzig</settlement>
+                        <addrLine></addrLine>
+                    </address>
+                </location></org>
+            <org xml:id="k_08" type="hotel">
+                <orgName>Victoria Hotel</orgName>
+                
+                <location>
+                    <address>
+                        <settlement ref="#o_02">Amsterdam</settlement>
+                        <addrLine></addrLine>
+                    </address>
+                </location></org>
+      
+        
+            </listOrg>
+        
+        
+        <!-- Ortsregister -->
+        <listPlace>
+            <place type="city" xml:id="o_01">
+                <settlement>Aachen</settlement>
+                <region>Rheinland</region>
+                <country>Deutsches Reich</country>
+                
+            </place>
+            <place type="city" xml:id="o_02">
+                <settlement>Amsterdam</settlement>
+                
+                <country>Niederlande</country>
+                
+            </place>
+            <place type="city" xml:id="o_03">
+                <settlement>Berlin West</settlement>
+                <country>Deutsches Reich</country>
+                <location type="geonames">
+                    <geo>52.53333, 13.16667</geo>
+                </location>
+                <idno type="geonames">https://www.geonames.org/11612751/west-berlin.html</idno>
+                
+            </place>
+            <place type="district" xml:id="o_04">
+                <district>Blaricum</district>
+                <country>Niederlande</country>
+                
+            </place>
+            <place type="district" xml:id="o_05">
+                <district>Den Haag</district>
+                <country>Niederlande</country>
+              
+            </place>
+            <place type="district" xml:id="o_06">
+                <district>Herzogenbusch</district>
+                <country>Niederlande</country>
+               
+            </place>
+            <place type ="region" xml:id="o_07">
+                <region>Holland</region>
+                <country>Niederlande</country>
+               
+                
+            </place>
+            <place type="city" xml:id="o_08">
+                <settlement>Köln</settlement>
+                <region>Rheinland</region>
+                <country>Deutsches Reich</country>
+             
+            </place>
+            <place type="city" xml:id="o_09">
+                <settlement>Krefeld</settlement>
+                <region>Rheinland</region>
+                <country>Deutsches Reich</country>
+                
+            </place>
+            
+            <place type ="city" xml:id="o_10">
+                <settlement>Leiden</settlement>
+                <country>Niederlande</country>
+                <location type="geonames">
+                    
+                </location>
+            </place>
+            <place type ="city" xml:id="o_11">
+                <settlement>Leipzig</settlement>
+                <country>Deutsches Reich</country>
+                <location type="geonames">
+                    
+                </location>
+            </place>
+            <place type="district" xml:id="o_12">
+                <district>Neuwied</district>
+                <country>Niederlande</country>
+                
+            </place>
+            <place xml:id="o_13" type="river">
+                <geogName>Rhein</geogName>
+                
+            </place>
+            
+            <place type ="city" xml:id="o_14">
+                <settlement>Rotterdam</settlement>
+                <country>Niederlande</country>
+                
+            </place>
+            <place type ="country" xml:id="o_15">
+                <country>Schweiz</country>
+                
+            </place>
+            
+            <place type="city" xml:id="o_16">
+                <settlement>Venedig</settlement>
+                <country>Italien</country>
+                
+            </place>
+            <place type="city" xml:id="o_17">
+                <settlement>Voorburg</settlement>
+                <country>Niederlande</country>
+                
+            </place>
+            <place type="city" xml:id="o_18">
+                <settlement>Zürich</settlement>
+                <country>Schweiz</country>
+                
+            </place>
+            <place type="city" xml:id="o_19">
+                
+                <country>Wien</country>
+                
+            </place>
+            <place type="district" xml:id="o_20">
+                
+                <country>Charlottenburg</country>
+                <settlement>Berlin</settlement>
+                
+            </place>
+        </listPlace>
+        
+        <!-- Register der Werke -->
+        <listBibl type="bibl">
+            <bibl xml:id="w_01" type="Prosa">
+                <idno type="GND">http://d-nb.info/361137435</idno>
+                <title ref="#p_04">Der Prinz von Theben
+                Ein Geschichtenbuch</title>
+                <author>
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName>
+                </author>
+                <publisher ref="Register.xml#k_07"> Verlag der weißen Bücher
+                </publisher>
+                <date when="1914">1914</date>
+            </bibl>
+            <bibl xml:id="w_02" type="Prosa">
+                <idno type="GND">http://d-nb.info/573852898</idno>
+                <title ref="#p_04">Der Prinz von Theben
+                    Ein Geschichtenbuch</title>
+                <edition>2. Auflage</edition>
+                <author>
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName>
+                </author>
+                <publisher ref="Register.xml#k_02"> Verlag Paul Cassirer
+                </publisher>
+                <date when="1920">1920</date>
+            </bibl>
+            
+            <bibl xml:id="w_03" type="Gedichte">
+                <idno type="GND">http://d-nb.info/363613196</idno>
+               
+                    <title>Hebräsiche Balladen. Der Gedichte erster Teil</title>
+                
+                <author>
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName>
+                </author>
+                <publisher ref="Register.xml#k_02">Verlag Paul Cassirer
+                </publisher>
+                <date when="1920">1920</date></bibl>
+            <bibl xml:id="w_04" type="Gedichte">
+                <idno type="GND">http://d-nb.info/363613188</idno>
+                <title>Hebräische Balladen</title>
+                <author>
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName>
+                </author>
+                <publisher ref="Register.xml#k_05"> A. R. Meyer
+                </publisher>
+                <date when="1913">1913</date>
+            </bibl>
+            
+            <bibl xml:id="w_05" type="Streitschrift">
+                <idno type="GND">http://d-nb.info/574561005</idno>
+                <title>Ich räume auf!
+                    Meine Anklage gegen meine Verleger</title>
+                <author>
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName>
+                </author>
+                <publisher ref="Register.xml#k_04">Lago-Verlag
+                </publisher>
+                <date when="1925">1925</date>
+            </bibl>
+            <bibl xml:id="w_06">
+                <title>Kotzebuerwerke</title>
+            </bibl>
+        </listBibl>
+        
+        <!-- Register der Sachbegriffe -->
+        <list type="notion">
+            <item xml:id="b_01">Advokat
+                <idno type="DWDS">https://www.dwds.de/wb/Advokat</idno>
+            </item>
+            <item xml:id="b_02">Burschikosität
+                <idno type="DWDS">https://www.dwds.de/wb/burschikos</idno></item>
+            <item xml:id="b_03">Konkurs
+                <idno type="DWDS">https://www.dwds.de/wb/Konkurs</idno></item>
+            <item xml:id="b_04">Loge
+                <idno type="DWDS">https://www.dwds.de/wb/Loge</idno></item>
+            <item xml:id="b_05">Oberrabbiner
+                <idno type="DWDS">https://www.dwds.de/wb/Oberrabbiner</idno></item>
+        </list>
+        
+        <!-- Register der Quellen -->
+        <listBibl type="literature">
+            <bibl xml:id="l_01" type="url">
+                <title>http://www.akl.ch/die-loge</title>
+                <date when="2021-02-20">aufgerufen am 20.02.21</date>
+            </bibl>
+            <bibl xml:id="l_02" type="monographie">
+                <title>Else Lasker-Schüler, Ihr Werk Und Ihre Zeit.</title>
+                <author>Bauschinger, Sigrid,</author>
+                <author>Elke Lasker-Schüler</author>
+                <publisher>Stiehm</publisher>
+                <edition>1. Auflage</edition>
+                <pubPlace>Heidelberg</pubPlace>
+                <date when="1980">1980</date>
+            </bibl>
+            <bibl xml:id="l_03" type="url">
+            <title>https://blog.dla-marbach.de/2020/11/02/else-lasker-schuelers-koenig-von-holland/#:~:text=man%20dann%20Entt%C3%A4uschungen.-,%C2%AB,Suchtelen%2C%20die%20er%20am%2028.</title>
+                <date when="2021-02-21">aufgerufen am 21.02.21</date>
+            </bibl>
+            <bibl xml:id="l_04" type="monographie">
+                <title>Else Lasker-Schüler, 1869-1945.</title>
+                <author>Erika Klüsener et. al</author>
+               <publisher>Deutsche Schillergesellschaft</publisher>
+                <pubPlace>Marbach am Neckar</pubPlace>
+                <date when="1995">1995</date>
+            </bibl>
+            <bibl xml:id="l_05" type="url">
+                <title>https://www.kj-skrodzki.de/Dokumente/Text_049.htm</title>
+                <date when="2021-02-20">aufgerufen am 21.02.20</date>
+            </bibl>
+            <bibl xml:id="l_06" type="url">
+                <title>https://www.kulturstiftung.de/dla-marbach-briefkonvolut-lasker-schueler/</title>
+                <date when="2021-02-23">aufgerufen am 21.02.23</date>
+            </bibl>
+            <bibl xml:id="l_07" type="url">
+                <title>https://www.tagesspiegel.de/kultur/briefe-von-else-lasker-schueler-schoen-bin-ich-nur-im-wort/26134468.html</title>
+                <date when="2021-02-19">aufgerufen am 21.02.19</date>
+            </bibl>
+            <bibl xml:id="l_08" type="article">
+                <title>CONFESSIO Ein Porträt des Görlitzer Kulturzionisten Friedrich Andreas (Ascher) Meyer (1888 – 1978)</title>
+                <author>Wessig Wolfgang</author>
+                <date when="2007">2007</date>
+            </bibl>
+        </listBibl>
+        
+    </p></body></text>
+</TEI>
