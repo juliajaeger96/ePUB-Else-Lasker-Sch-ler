@@ -1,0 +1,16 @@
+/*Scripting-Fallback*/
+/*Table-Fallback*/
+table.meta {
+    /* Suppress display of complex tables on MOBI and use fallback image instead */
+    display: none;
+  }
+	img.fallback_table{
+		display:inline-block;
+}
+img.fallback_caption + figcaption {
+        display:inline;
+    }
+
+p { font-style: normal;
+}
+

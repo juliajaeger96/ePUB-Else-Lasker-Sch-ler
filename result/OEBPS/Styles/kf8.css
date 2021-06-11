@@ -1,0 +1,50 @@
+/*Scripting-Fallback*/
+table.meta {
+   
+    display: table;
+  }
+
+table{
+    display: table;
+    font-family: sans-serif;
+    font-size:small;
+    text-indent: 0.0px;
+    clear: left;
+    width: auto;
+    border: 1px solid black;
+	
+}
+table tr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	
+	
+}
+
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+ background-color: #fff;
+}
+th{
+	background-color: black;
+  color: white;
+}
+
+td {
+    display: table-cell;
+  
+    border: 1px solid black;
+}
+tr{
+    display: table-row;
+    border: 1px solid black;
+}
+
+
+p { font-style: normal;
+
+}

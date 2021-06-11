@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 15. Oktober
+                    1923.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">42</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5 Millionen
+                                Mark 5 000 000 M</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with
+                                    numbers. </figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">42</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5 Millionen
+                                Mark 5 000 000 M</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with
+                                    numbers. </figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">42</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5 Millionen
+                                Mark 5 000 000 M</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with
+                                    numbers. </figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">42</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">1 Millionen
+                                Mark </measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with
+                                    numbers. </figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">42</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">200 Millionen
+                                Mark </measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with
+                                    imprint <quote>2 Millionen</quote>. </figDesc>
+                            </figure>
+                        </p>
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                                  postmark:<stamp><!-- Description if needed--><mentioned><placeName
+                                                  ref="Register.xml#o_03">Berlin W.</placeName><date
+                                                  when="1923-10-20">20.10.23</date>6-7
+                                            N</mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+
+
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin W.</settlement>
+
+                    <date when="1923-10-20">20. Oktober 1923</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="postcard" facs="42">
+        <body>
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+
+            <pb n="1" facs="./Faksimile/42_01.jpg"/>
+            <div n="1">
+                <dateline>
+                    <persName ref="Register.xml#p_01">Herrn Direktor<lb></lb> Dr. N. Beversen</persName><lb></lb>
+                    <placeName ref="Regsiter.xml#o_10">Leiden (Holland)</placeName><lb></lb>
+                    <placeName ref="Register.xml#o_03"><hi rend="underline">Berlin
+                        W.</hi></placeName><lb></lb>
+                    <geogName ref="Regsiter.xml#k_06">Hotel Koschel <address><lb></lb>
+                            <addrLine>Motzstr. 78</addrLine><lb></lb>
+                        </address></geogName>
+                </dateline>
+                <opener><salute>Liebverehrter <roleName ref="Register.xml#p_01">Herr
+                            Doktor</roleName>,</salute></opener><lb></lb>
+                <p>anbei die <hi rend="underline">nächste</hi><lb></lb> Kritik. <rs ref="Register.xml#p_04"
+                        >Ich</rs> sandte<lb></lb> durch die<lb></lb> Prospekte?</p><lb></lb>
+            </div>
+            <pb n="2" facs="./Faksimile/42_02.jpg"/>
+            <div n="2">
+                <p>Die Kritik schrieb der <persName ref="Register.xml#p_12">Erbprinz von
+                        Reuss</persName> und<lb/>
+                    <rs ref="Register.xml#p_04">ich</rs> bin stolz darauf- <hi rend="underline"
+                        >darum</hi> da es nun die<lb/> Juden schätzt und kein <unclear
+                        facs="./Faksimile/Unclear/42_xxx.tif">xxxx</unclear> mehr ist.<lb></lb><note>Hierbei
+                        handelt es sich um die Kritik von <persName ref="Register.xml#p_12"
+                            >Herinrich von Reuß</persName>, den <persName ref="Register.xml#p_04"
+                            >Else Lasker-Schüler</persName> in ihrer <name type="bibl"
+                            ref="Register.xml#w_05">Streitschrift</name> namentlich erwähnt
+                            <quote>des begabten Erbprinzen Heinrich von Reuß</quote> (KA, Bd. 4.1.
+                        S. 73).</note>
+                    <rs ref="Register.xml#p_04">Ich</rs> soll <hi rend="underline">bald</hi> in die
+                        <placeName ref="Register.xml#o_15">Schweiz</placeName>. Wird er auch<lb></lb> in
+                        <placeName ref="Register.xml#o_07">Holland</placeName>? Ihre liebe <rs
+                        ref="Register.xml#p_06">Frau Gemahlin</rs> ist<lb></lb> doch nicht wieder krank?
+                    Bitte grüßen <rs ref="Register.xml#p_01">Sie</rs><lb></lb>
+                    <rs ref="Register.xml#p_06">sie</rs> von <addName ref="Register.xml#p_04"
+                        >Jussuf</addName>. Sind <rs ref="Register.xml#p_01">Sie</rs> mir böse? <hi
+                        rend="underline">Wenn</hi><lb></lb> er auch <hi rend="underline">nicht</hi> in
+                        <placeName ref="Register.xml#o_07">Holland</placeName> wird <rs
+                        ref="Register.xml#p_04">ich</rs>
+                    <hi rend="underline" n="2">danke</hi><lb></lb>
+                    <rs ref="Register.xml#p_01">Ihnen</rs> eben sehr, <roleName
+                        ref="Register.xml#p_01">Herr Doktor</roleName>. Er geben ja oft<lb></lb> große
+                        <unclear facs="./Faksimile/Unclear/42_xxxxxx.tif"
+                        >xxxxxxxxxxxx</unclear><note type="editorical"><persName
+                            ref="Register.xml#p_01">Herr Beversen</persName> hat<persName
+                            ref="Register.xml#p_04"> Else Lasker-Schüler</persName> nicht nur
+                        finanziell, sondern auch mit ihren Werken durch Erwähnungen in Zeitschriften
+                        unterstützt.</note>. </p>
+                <closer>Immer ihr<lb></lb> <addName ref="Register.xml#p_04">Prinz Jussuf</addName>.<lb></lb> Ihre
+                    liebe <unclear facs="./Faksimile/Unclear/42_else.tif">Else</unclear>.<lb></lb>
+                    Unglaubliche <unclear>Tapfersindheit</unclear> hier. Alles kostbar</closer><lb></lb>
+
+
+            </div>
+
+
+
+
+
+
+
+        </body>
+
+    </text>
+</TEI>

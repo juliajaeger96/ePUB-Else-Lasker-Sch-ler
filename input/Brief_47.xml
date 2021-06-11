@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 07. Oktober
+                    1928.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="letter">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin</settlement>
+                    <date when="1928-10-07">07. Oktober 1928</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <placeName evidence="conjecture" cert="low" ref="Register.xml#o_17"
+                        >[Voorburg?]</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="letter" facs="47">
+        <body>
+
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+            <pb n="1" facs="./Faksimile/47_01.jpg"/>
+            <div n="1">
+                <p><date when="1928-10-07"> 7 - Okt - 28</date><lb></lb>
+                    <placeName ref="Register.xml#o_03">Berlin W.</placeName><lb></lb>
+                    <orgName ref="Register.xml#k_06">Sachsenhof Motzstr. 78 </orgName><lb></lb>
+                    <persName ref="Register.xml#p_04">Else Lasker Schüler</persName><lb></lb>Lieber guter
+                    verehrter<lb></lb><hi rend="underline">nicht</hi> strenger <roleName
+                        ref="Register.xml#p_01">Herr Doktor</roleName>.<lb></lb>Ich sprach den Tag vorher,
+                    danken<lb></lb><rs ref="Register.xml#p_01">Sie</rs> von <placeName
+                        ref="Register.xml#o_07">Holland</placeName> ließ mir<lb></lb>ein Hotel in<placeName
+                        ref="Register.xml#o_02"> Amsterdam</placeName> aufberei-<lb></lb>ten: <orgName
+                        ref="Register.xml#k_08"><hi rend="underline">Victoria Hotel</hi></orgName>.
+                    Ich komme!<lb></lb>Ich möchte die Welt sehen!<lb></lb>Wann soll ich kommen? Ich<lb></lb>habe jetzt genug
+                        Geld.<hi rend="underline"> Spreche<lb></lb>gern.</hi> Bitte schreiben <rs
+                        ref="Register.xml#p_01">Sie</rs> darüber<lb></lb><persName ref="Register.xml#p_07"
+                        >Herrn Victor von Vriesland</persName><lb></lb>
+                    <placeName ref="Register.xml#o_04">Blarricum bei Amsterdam "De Veel"</placeName><lb></lb>
+                </p>
+            </div>
+            <pb n="2" facs="./Faksimile/47_02.jpg"/>
+            <div n="2">
+                <p>2)<address>
+                        <addrLine>matthijssenhoutweg 425.</addrLine><lb></lb>
+                    </address> Telefon 309 Posterkennung (?)(?) <hi rend="underline">26603</hi><lb></lb>
+                    <hi rend="underline">Sah' <rs ref="Register.xml#p_07">ihn</rs> nie!</hi><lb></lb>
+                    <rs ref="Register.xml#p_07">Er</rs> hat die selbe Blutfarbe wie<lb></lb>ich, gute Blume,
+                    alter Wein. <hi rend="underline">Gern</hi><lb></lb>komm ich, ich seh mir <placeName
+                        ref="Register.xml#o_07">Holland</placeName><lb></lb>an. <rs ref="Register.xml#p_01"
+                        >Sie</rs> zeigen mir bitte <placeName ref="Register.xml#p_05"
+                        >Haag</placeName>.<lb></lb>Ich habe genug Geld, falls Sie<lb></lb>gerade im - <name
+                        type="notion" ref="Register.xml#b_03">Concurs</name> – <note
+                        type="editorical" source="Register.xml#l_06">Da <persName
+                            ref="Register.xml#p_04">Else Lasker-Schüler</persName> nicht viel Geld
+                        besaß, hat <persName ref="Register.xml#p_01">Beversen</persName> sie
+                        desöfteren finanziell unterstützt. </note><addName ref="Register.xml#p_04"
+                        >Ihr<lb></lb>Prinz und Matrose</addName><addName ref="Register.xml#p_04"> und blauer<lb></lb>Jaguar Jussuf</addName><note type="editorical"><persName
+                            ref="Register.xml#p_04">Else</persName> schreibt ihre Briefe unter
+                        poetischen Masken wie <persName ref="Register.xml#p_04">Prinz von
+                            Theben</persName> und <persName ref="Register.xml#p_04">blauer
+                            Jaguar</persName>.</note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

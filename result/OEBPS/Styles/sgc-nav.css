@@ -1,0 +1,31 @@
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+#toc {
+    
+   
+    font-size: 1.2em;
+    
+    width: auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: 700;
+    
+}
+
+#toc li, #toc ul, #toc ul li{
+    list-style: outside none !important;
+   
+   
+}

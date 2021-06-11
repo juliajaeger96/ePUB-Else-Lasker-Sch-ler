@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 08. Oktober
+                    1928.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">48</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a portrait of Friedrich
+                                    Schiller on green background.</figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">48</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">10
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a portrait of Friedrich
+                                    Schiller on red background.</figDesc>
+                            </figure>
+                        </p>
+
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                                  postmark:<stamp><!-- Description if needed--><mentioned><placeName
+                                                  ref="Register.xml#o_03">Berlin W</placeName><date
+                                                  when="1928-10-08">08-10-28</date>2-3
+                                            N</mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+
+
+
+                    </physDesc>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin</settlement>
+                    <date when="1928-10-08">08 Oktober 1928</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_17">Voorburg</settlement>
+                    <district ref="Register.xml#o_05">Haag</district>
+                </correspAction>
+
+            </correspDesc>
+
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="postcard" facs="48">
+        <body>
+
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+            <pb n="1" facs="./Faksimile/48_01.jpg"/>
+            <div n="1">
+                <p>
+                    <date when="1928-10-08">8. Okt. 28</date><lb/>
+                    <rs ref="Register.xml#p_01">Sir.</rs> Ich habe<lb/> eine Taktlosig<c
+                        type="hyphenation">-</c><lb/> keit geschrieben,<lb/> aber nicht<lb/>
+                    gemeint,<lb/> aber <lb/> aus<lb/>
+                    <name type="notion" ref="Register.xml#b_02">Burschikosität.</name><lb/></p>
+
+                <dateline><placeName ref="Register.xml#o_07"> Holland</placeName><lb/>
+                    <persName ref="Register.xml#p_01"> Herrn <lb/> Direktor<lb/> N.
+                        Beversen</persName><lb/>
+                    <placeName ref="Register.xml#o_17">Voorburg (Haag)</placeName><lb/> Postweg 197
+                    <lb/> Postweg 197<lb/></dateline>
+
+            </div>
+            <pb n="2" facs="./Faksimile/48_02.jpg"/>
+
+            <div n="2">
+                <p>Ich meine die Stelle<lb/>mit dem <name type="notion" ref="Register.xml#b_03"
+                        >Concurs</name>. <note type="editorical"><persName ref="Register.xml#p_04"
+                            >Else Lasker-Schüler</persName> nimmt hier Bezug auf den <ref
+                            target="Brief_47.xml">Brief 47 vom 07. Oktober 1928</ref> (s. auch
+                        Erläuterungen), in dem sie schreibt, dass <persName ref="Register.xml#p_01"
+                            >Nicolaas Beversen</persName> ihr kein Geld schicken braucht, falls er
+                        sich gerade im <name type="notion" ref="Register.xml#b_03">Konkurs</name>
+                        befindet. </note> Es war<lb/> nicht allein wegen der <name type="notion"
+                        ref="Register.xml#b_02">Bur<c type="hyphenation">-</c><lb/>
+                        schicosität</name> auch daß <rs ref="Register.xml#p_01">Sie</rs> durch<lb/>
+                    mich keine Ausgaben für<lb/> Sich haben sollen. <unclear>Tardomen</unclear><lb/>
+                    <foreign xml:lang="nl">kaan nit verstan!</foreign><note type="editorical">kann
+                        nicht verstehen!</note> Ihr <persName ref="Register.xml#p_04">Prinz<lb/>
+                        Jussuf von Theben</persName>. <orgName ref="Register.xml#k_06">Motzstr.78
+                        Sachsenhof</orgName><lb/>
+                    <persName ref="Register.xml#p_04"> Else Lasker-Schüler </persName><placeName
+                        ref="Register.xml#o_03">Berlin W.</placeName>
+                </p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

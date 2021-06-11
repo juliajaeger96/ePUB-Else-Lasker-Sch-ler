@@ -1,0 +1,357 @@
+/*iOS Stylesheet*/
+@import url("iOS.css");
+
+@namespace epub "http://www.idpf.org/2007/ops";
+
+/* Disable Hyphens
+h1, h2, h3, h4 {
+
+	adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+}
+ */
+
+/* Seitenumbrüche */
+figure.image {
+ page-break-before: always;
+ page-break-inside: avoid;
+  break-inside: avoid;
+  page-break-after:always;
+}
+
+/* Grafiken mit Titel beibehalten */
+figure {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+hr{
+page-break-before: always;
+/*  display:oeb-page-foot;*/
+ 
+}
+
+
+body {
+padding-left:0pt;
+margin-left:1em;
+margin-right:1em;
+
+
+}
+/* Absaetze */
+p {
+
+margin-top:0px;
+margin-bottom:0px;
+text-indent:0em;
+text-align:justify;
+ 
+}
+/*Zeilenumbrüche ausschalten*/
+/*br {
+      content: "\a " counter(listing, decimal-leading-zero);
+      white-space: pre;
+ }*/
+
+/* Überschriften */
+h1{
+    font-size: x-large;
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    clear: left;
+text-align: center;
+
+    
+}
+h2 {
+    font-size: large;
+    clear: left;
+text-align: center;
+
+    
+}
+h3, h4{
+font-size: large;
+    
+text-align: left;
+}
+
+
+/* Tabellen */
+	
+	
+
+table {
+    display: table;
+    font-family: sans-serif;
+    font-size:small;
+    text-indent: 0.0px;
+    clear: left;
+    width: auto;
+    border: 1px solid black;
+	
+}
+table tr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	
+	
+}
+table.meta{
+				display: none;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+ background-color: #fff;
+}
+th{
+	background-color: black;
+  color: white;
+}
+
+td {
+    display: table-cell;
+  
+    border: 1px solid black;
+}
+tr{
+    display: table-row;
+    border: 1px solid black;
+}
+
+/* Listen */
+ol{
+    list-style-type: decimal;
+    font-family: sans-serif;
+}
+/* Grafiken 
+img{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+}*/
+
+img.fallback_table{
+	display:none;
+}
+img.fallback_table + figcaption {
+	display:none;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: gray;
+
+ page-break-before: avoid;
+
+}
+
+/* Fußnoten */
+sup{
+    display: inline;
+    font-size: 0.7em;
+    vertical-align: text-top;
+}
+
+ol.footnotes{
+    display:inline;
+	/*display:oeb-page-foot;*/
+    font-size: 0.7em;
+    vertical-align: text-top;
+	
+}
+
+/*Hover-Gestaltung*/
+
+a.tip {
+	color: black !important;
+			}
+a.tip:hover {
+   
+	position: relative
+		}
+/* Gestaltung des Textes -> wird nicht auf dem Display angezeigt */
+a.tip span {
+	display:none;
+		}
+a.tip:hover span {
+    font-size: 0.7em;
+    border: #c0c0c0 1px solid;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background-color: white;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+	}
+
+	
+
+
+/* quote */
+.quote{
+    font-style: italic;
+}
+
+
+
+/* Annotationen */
+
+span[epub|type~='annotation']{
+	float: right;
+    clear: right;
+    width: 30%;
+    font-size: 0.85em;
+    padding: 5px 20px 5px 5px;
+    margin: 0.8em 0 0.25em 1em;
+    border-top: 2px solid #999;
+    border-left: 2px solid #999;
+    border-bottom: 2px solid #999;
+    
+}
+/* Popover */
+aside[epub|type~='footnote']{
+    display: inline;
+    font-size: 0.7em;
+    vertical-align: text-top;
+}
+
+
+/* Media query order matters here, as content of later media queries will override that of earlier ones) */
+
+/* Default orientation handling */
+ 
+@media (orientation:landscape) {
+p{
+color:black;
+}
+  
+table tr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	
+	
+}
+
+}
+
+@media (orientation:portrait) {
+p{
+color:black;
+}
+  
+table tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	
+	
+}
+
+}
+
+/* iBooks Platform Queries */
+
+/* Standard iPad device pixel dimensions */
+
+@media (min-device-width:768px) 
+and (max-device-width:1024px) {
+p{
+color:black;
+}
+ 
+table tr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	
+	
+}
+}
+
+
+
+/* Standard iPad device pixel dimensions + two-up landscaped viewport (in landscape view for iPad, each page is a separate viewport which is less than 480 px) */
+@media (min-device-width:768px) and 
+(max-device-width:1024px) and 
+(max-width: 480px) 
+{
+p{
+color:black;
+}
+
+   	
+table tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	
+	
+}
+
+}
+
+
+/* Should work on iPhone 6s and 6 */
+/*Tabellen werden als Bild angezeigt*/
+@media (max-device-width:667px) {
+button{
+display:inline;
+}
+   table.meta {
+    /* Suppress display of complex tables on MOBI and use fallback image instead */
+    display: none;
+  }
+	img.fallback_table{
+		display:inline-block;
+}
+img.fallback_caption + figcaption {
+        display:inline;
+    }
+}
+
+
+/*Alternative
+@supports not(scripting) {
+	table.meta {
+   
+    display: table;
+  }
+}
+  */
+
+/*Media Query hover wird nicht unterstützt
+@media (hover: hover) {
+  a.tip span {
+	display:none;
+		}
+a.tip:hover span {
+    font-size: 0.7em;
+    border: #c0c0c0 1px solid;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    background-color: white;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+	}
+}
+*/

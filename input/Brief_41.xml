@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 15. Oktober 1923.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">41</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                            <quote>Deutsches Reich</quote><measure type="currency">5
+                                Millionen Mark
+                            5 000 000 M</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with numbers. </figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">41</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                            <quote>Deutsches Reich</quote><measure type="currency">2
+                                Millionen Mark
+                                </measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with imprint <quote>2 Millionen</quote>. </figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">41</idno>
+                            <objectType n="3">Postmark</objectType> from Germany with the imprint
+                            <quote>Deutsches Reich</quote><measure type="currency">2
+                                Millionen Mark
+                                </measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with imprint <quote>2 Millionen</quote>.  </figDesc>
+                            </figure>
+                        </p>
+                        
+                        
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                        postmark:<stamp><!-- Description if needed--><mentioned><placeName ref="Register.xml#o_03">Berlin W</placeName><date
+                                            when="1923-10-15">15-10-23</date>2-3
+                                            N</mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                        
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler
+                    </persName>
+                    <settlement ref="Register.xml#o_03">Berlin W.</settlement>
+                    <date when="1923-10-15">15. Oktober 1923</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen
+                    </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        
+        
+    </teiHeader>
+    <text type="postcard" facs="41">
+        <body>
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+            
+            <pb n ="1" facs="./Faksimile/41_01.jpg"/>
+            <div n= "1"><dateline>
+                <persName ref="Register.xml#p_01">Herrn Direktor<lb></lb>
+                    Dr. N. <hi rend="underline">Beversen</hi></persName><lb></lb>
+                <placeName ref="Regsiter.xml#o_10">Leiden<lb></lb>
+                (Holland)</placeName><lb></lb>
+                <persName ref="Register.xml#p_04">Frau<lb></lb> 
+                Else Lasker-<lb></lb>
+                Schüler</persName><lb></lb>
+                
+                <geogName ref="Regsiter.xml#k_06">Hotel Koschel</geogName><lb></lb>
+                    <address><addrLine>Motzstr. 78</addrLine></address><lb></lb>
+                <placeName ref="Register.xml#o_03">Berlin W.</placeName><lb></lb>
+            </dateline>
+            <p>Herzeliche<lb></lb>
+                Grüße.</p><lb></lb>
+                </div>
+            
+            
+            <pb n ="2" facs="./Faksimile/41_02.jpg"/>
+            
+            <div n = "2"><opener><salute><date when="1923-10-15">15.Okt.23.</date> Lieber verehrter<lb></lb>
+                <roleName ref="Register.xml#p_01">Herr Doktor.</roleName>
+            </salute></opener>
+            <p>Sind<lb></lb>
+                Ihre Nachrichten etwa <hi rend="underline">verloren</hi> ge<c type="hyphenation">-</c><lb></lb>
+                gangen? <lb></lb>Ist etwa Ihre liebe <rs ref="Register.xml#p_06">Frau</rs> <unclear facs="./Faksimile/Unclear/41_kraenklich.tiff">kränklich?</unclear><lb></lb>
+                Wie wird es? <hi rend="underline">Kann</hi><lb></lb>
+                nicht, <hi rend="underline">eben gelesen</hi> Dank! <persName ref="Register.xml_#p_02">Cassirer</persName><lb></lb>
+                der <hi rend="underline">entsegliche</hi> Hay ist in <placeName ref="Register.xml_#o_07">Holland</placeName>,<lb></lb>
+                hat er dagegen was gemacht der -<lb></lb>
+                <hi rend="underline">entsegliche</hi> Mensch der mich sehr <lb></lb>
+                schädigt. <hi rend="underline">Ganz im Stich</hi> läßt er mich schon<lb></lb>
+                Jahre und hat <hi rend="underline">13</hi> Bücher. Ich habe<lb></lb>
+                Anwalt.<lb></lb><note type="editorical" source="Register.xml#l_02" n="S.192" xml:id="note_01"><persName ref="Register.xml#p_04">Else Lasker-Schüler</persName> bezieht sich hier auf ihre <name type="bibl" ref="Register.xml#w_05">Streiftschrit</name> von 1923, die sich gegen ihren damaligen Verleger <persName>Paul Cassirer</persName> richtet (s. <ref target="#Brief_43.xml">Brief_43</ref> und Erläuterungen).</note>
+            </p>
+            <closer><salute>Ihr <addName ref="Register.xml#p_04">B’Jussuf</addName></salute></closer>
+            </div>
+            
+            
+            
+            
+        </body>
+        
+    </text>
+</TEI>
+

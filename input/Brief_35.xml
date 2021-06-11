@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 17. Januar
+                    1923.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">35</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows an eagle on green
+                                    background.</figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">35</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">50
+                                Mark</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>Freimarken: Ziffern im Querformat</figDesc>
+                            </figure>
+                        </p>
+
+
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                                  postmark:<stamp><!-- Description if needed--><mentioned><placeName
+                                                  ref="Register.xml#o_03">Berlin W</placeName><date
+                                                  when="1923-01-17">17-01-23</date>2-3
+                                            N</mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+
+
+
+                    </physDesc>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin</settlement>
+                    <date when="1923-01-17">17. Januar 1923</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="postcard" facs="35">
+        <body>
+
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+            <pb n="1" facs="./Faksimile/35_01.jpg"/>
+            <div n="1">
+                <p> Hof 23 <persName ref="Register.xml#p_04">Frau<lb/> Else Lasker<lb/>
+                        Schüler<lb/></persName>
+                    <placeName ref="Register.xml#o_03"><hi rend="underline">Berlin
+                        W</hi></placeName><lb/> Postamt 50<lb></lb> <hi rend="underline">postlagernd</hi><lb></lb>
+                    Antwort bitte<lb></lb> schreiben, lieber <persName ref="Register.xml#p_01">Herr
+                        Doktor</persName> wer<lb></lb> und was ich bin u. ihm Ihre Kritik senden, die <rs
+                        ref="Register.xml#p_01">Sie</rs> damals schrie-<lb></lb>ben. Dank Dank.<lb></lb> <note
+                        type="editorical">Kritik konnte nicht ermittelt werden, da die Antworten von
+                        Beversen nicht vorliegen.</note>
+                    <persName ref="Register.xml#p_01">Herrn Direktor Dr. N. <hi rend="underline"
+                            >Beversen</hi></persName><lb></lb>
+                    <placeName ref="Register.xml#o_10">Leiden (Holland)</placeName><lb></lb>
+                </p>
+            </div>
+            <pb n="2" facs="./Faksimile/35_02.jpg"/>
+            <div n="2">
+                <p>Sehr liebverehrter <persName ref="Register.xml#p_01">Herr Doktor</persName>.<lb/>
+                    Es ist durch <persName ref="Register.xml#p_03">Herrn Oberrabbiner<lb/>
+                        <hi rend="underline">Hertjes</hi></persName><note type="editor">nicht
+                        ermittelt</note>: <placeName ref="Register.xml#o_06"><hi rend="underline">in
+                            Herzogenbusch</hi></placeName> möglich,<lb/> daß für <hi
+                        rend="underline">mich</hi> und seinem <persName ref="Register.xml#p_05"
+                        >Schwager<lb/> Andreas Meyer</persName>
+                    <name type="notion" ref="Register.xml#b_01">(Advokat)</name> Abende zu<lb/>
+                    Stande kommen.<note type="editorical">zu Abenden siehe Erläuterung <ref
+                            target="Brief_53.xml">Brief 53</ref>.</note> Der <persName
+                        ref="Register.xml#p_05">Andreas</persName> spräche<lb/> über neue Kunst. <rs
+                        ref="Register.xml#p_05">Er</rs> war in <placeName ref="Register.xml#o_03"
+                        >Berlin</placeName> als<lb/> Student mein brüderlicher Freund, ist nun<lb/>
+                    verheiratet und <rs ref="Register.xml#p_05">er</rs> schrieb vorgestern an seinen<lb/>
+                    <rs ref="Register.xml#p_03">Schwager</rs> nach Herzogenbusch. <name
+                        type="notion" ref="Register.xml#b_04">Logen</name> kämen in Betracht.<lb/>
+                    Wollen <persName ref="Register.xml#p_01">Sie</persName> dann <name type="notion"
+                        ref="Register.xml#b_05">Oberrabbiner</name><lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

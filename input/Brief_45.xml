@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Köln, 20. März
+                    1924.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">45</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">20
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows blue
+                                    "Korbdeckelmuster".</figDesc>
+                            </figure>
+                        </p>
+
+                    </physDesc>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_08">Köln</settlement>
+                    <geogName ref="Register.xml#k_02">Hotel Belgischerhof</geogName>
+                    <location>
+                        <address>
+                            <addrLine>Comödienstr. am Dom</addrLine>
+                        </address>
+                    </location>
+                    <date when="1924-03-20">20. März 24</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+    </teiHeader>
+    <text type="postcard" facs="45">
+        <body>
+
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+            <pb n="1" facs="./Faksimile/45_01.jpg"/>
+            <div n="1">
+                <dateline><persName ref="Register.xml#p_01">Direktor<lb></lb>Herrn Dr. N.<lb></lb>Beversen</persName>
+                    <placeName ref="Register.xml#o_10">Leiden (Holland)</placeName><lb></lb>
+                    <hi rend="underline"><date when="1924-03-20">20. März 24</date></hi></dateline>
+                <opener>Kann man Karte lesen?<lb></lb>Lieber bester<lb></lb>verehrter <rs ref="Register.xml#p_01"
+                        >Herr<lb></lb>Doktor</rs>.</opener>
+                <p>Vor<c type="hyphenation">-</c><lb></lb>trag schon in <placeName ref="Register.xml#o_08"
+                        >Cöln</placeName>: <hi rend="underline">Montag</hi><lb></lb>
+                    <date when="1924-03-14">14. III</date>: <placeName ref="Register.xml#o_09"
+                        >Crefeld</placeName><lb></lb>
+                    <date when="1924-03-26">26. III</date>: <placeName ref="Register.xml#o_01"
+                        >Aachen</placeName>
+                    <unclear>Kunstbriefe.</unclear><lb></lb>dann noch <placeName ref="Register.xml#o_05"
+                        >Haag</placeName><lb></lb>und auf <persName ref="Register.xml#p_01">Doktor
+                        Beversen</persName>.<lb></lb><figure>
+                        <desc>Skizze von Städten</desc>
+                    </figure> Städte</p>
+            </div>
+            <pb n="2" facs="./Faksimile/45_02.jpg"/>
+            <div n="2">
+                <p> Eben schrieb ich <persName ref="Register.xml#p_10">Fürstin zu
+                    Wied</persName>nach<lb></lb><placeName ref="Register.xml#o_12">Neuwied</placeName>, ich
+                    möchte <rs ref="Register.xml#p_10">Sie</rs> sprechen, ich<lb></lb>kenne <rs
+                        ref="Register.xml#p_10">Sie</rs> von <placeName ref="Register.xml#o_03"
+                        >Berlin</placeName> wo wir bekannt<lb></lb>waren und <rs ref="Register.xml#p_10"
+                        >Sie</rs>
+                    <hi rend="underline">viel</hi> Interesse für mich<lb></lb>und für meine <name
+                        type="bibl" ref="Register.xml#w_06">Kotzebuerwerke</name><note
+                        type="editorical">nicht ermittelt.</note> hatte.<lb></lb>Nun käme ja nur <hi
+                        rend="underline"><unclear>Testag</unclear></hi> erster
+                        <unclear>Testag</unclear><lb></lb>April in Betracht. Vielleicht, daß ich bei<lb></lb><persName ref="Register.xml#p_08">Königin Emma</persName> oder <persName
+                        ref="Register.xml#p_11">Königin Wilhelmina</persName><lb></lb>vortrag. Die <persName
+                        ref="Register.xml#p_10">Fürstin als Cousine</persName> wird gewiss<lb></lb>alles
+                    dafür tun. Dazu <hi rend="underline">wirds</hi>
+                    <hi rend="underline"><unclear>wohl</unclear></hi><lb></lb>doch werden. Ich freue mich
+                    aufs Meer.<lb></lb><geogName ref="Register.xml#k_02">Belgischerhof</geogName>
+                    <address>
+                        <addrLine>Comödienstr. am Dom</addrLine>
+                    </address><lb></lb>
+                    <placeName ref="Register.xml#o_08">Cöln</placeName>/<geogName
+                        ref="Register.xml#o_13">Rhein</geogName></p><lb></lb>
+
+
+            </div>
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 15. Oktober
+                    1923.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">46</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows an eagle on green
+                                    background.</figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">46</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows an eagle on green
+                                    background.</figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">46</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">10
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows an eagle on red
+                                    background.</figDesc>
+                            </figure>
+                        </p>
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                                  postmark:<stamp><!-- Description if needed--><mentioned><placeName
+                                                  ref="Register.xml#o_20"
+                                                  >Charlottenburg</placeName><date when="1924-09-22"
+                                                  >22.9.24</date>5-6 N</mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+
+
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin W.</settlement>
+
+                    <date when="1924-09-22">22. September 1924</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="postcard" facs="46">
+        <body>
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+
+            <pb n="1" facs="./Faksimile/46_01.jpg"/>
+            <div n="1">
+                <dateline>
+                    <persName ref="Register.xml#p_01">Herrn Direktor<lb></lb>Dr. N. <hi rend="underline"
+                            >Beversen</hi></persName><lb></lb>
+                    <placeName ref="Register.xml#o_10"/><hi rend="underline">Leiden</hi><lb></lb>
+                    <placeName ref="Register.xml#o_07"> in <hi rend="underline"
+                        >Holland</hi></placeName><lb></lb>
+                    <date when="1924-09-22"><hi rend="underline">22. Sept. 24</hi></date><lb></lb>
+                </dateline>
+                <opener><salute>Verehrtlieber<lb></lb><roleName ref="Register.xml#p_01">Herr
+                            Doktor</roleName>.<lb></lb></salute></opener>
+                <p>Gern komm <rs ref="Register.xml#p_04">ich</rs>. Damals<lb></lb>hatte <roleName
+                        ref="Register.xml#p_10">Fürstin</roleName></p><lb></lb>
+
+            </div>
+
+            <pb n="2" facs="./Faksimile/46_02.jpg"/>
+            <div n="2">
+                <p><rs ref="Register.xml#p_10">Wied</rs> schon an <persName ref="Register.xml#p_11"
+                        >Königin<lb></lb><hi rend="underline">Emma</hi></persName> geschrieben. <hi
+                        rend="underline">Novem<c type="hyphenation">-</c><lb></lb>ber</hi> gern. <hi
+                        rend="underline">Wann?</hi> Und<lb></lb>wie und was. Ich war<lb></lb>in <placeName
+                        ref="Register.xml#o_16">Venedig</placeName> wurde dort gif<c
+                        type="hyphenation">-</c><lb></lb>tig gestochen. Bin nun <rs ref="Register.xml#o_20"
+                        >hier</rs>.<lb></lb>
+                    <note type="editorical">Mit <quote>hier</quote> meint Else Lasker-Schüler
+                        höchstwahrscheinlich ihren momentanen Aufenthalt, der sich in zu dieser Zeit
+                        in <placeName ref="Register.xml#o_20">Charlottenburg</placeName> bei
+                            <placeName ref="Register.xml#o_03">Berlin</placeName> befindet.</note>. </p>
+                <closer><addName ref="Register.xml#p_04">Ihr Jussuf.<lb></lb></addName></closer>
+
+            </div>
+
+
+
+
+
+
+        </body>
+
+    </text>
+</TEI>

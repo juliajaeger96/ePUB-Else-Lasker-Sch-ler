@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 15. Oktober
+                    1923.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">44</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">20 Pfennig </measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a "Freimarke" with
+                                    numbers. </figDesc>
+                            </figure>
+                        </p>
+
+
+
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_08">Köln</settlement>
+                    <date when="1924-03-15">15. März 1924</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="postcard" facs="44">
+        <body>
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+
+            <pb n="1" facs="./Faksimile/44_01.jpg"/>
+            <div n="1">
+                <dateline> vor <placeName ref="Register.xml#o_08">Cöln Rhein</placeName>. <geogName
+                        ref="Regsiter.xml#k_06">Belgischer Hof <address><lb></lb>
+                            <addrLine>Comödienstraße</addrLine><lb></lb>
+                        </address></geogName>
+                    <date when="1924-03-15">15. März 24</date><lb></lb>Jussuf ist<lb></lb>in <placeName
+                        ref="Register.xml#o_08">Cöln</placeName> kömet<lb></lb>sprach, spricht<lb></lb>wird
+                        <placeName ref="Register.xml#o_01">Aachen</placeName>,<lb></lb><placeName
+                        ref="Register.xml#o_09">Crefeld</placeName> die<lb></lb>möcht Meer in<lb></lb><placeName
+                        ref="Register.xml#o_10">Leiden</placeName> sehn. <persName
+                        ref="Register.xml#p_01">Herrn Direktor<lb></lb>Dr. N. Beversen</persName><lb></lb>
+                    <placeName ref="Regsiter.xml#o_10">Leiden (Holland)</placeName><lb></lb>
+                </dateline>
+            </div>
+            <pb n="2" facs="./Faksimile/44_02.jpg"/>
+            <div n="2">
+                <opener/>
+                <p><hi rend="underline">Wie</hi> mache <rs ref="Register.xml#p_04">ich</rs> das?
+                    Vielleicht<lb></lb><unclear>xxxxxxxx</unclear> - wie Maus? Kann ich spre-<lb></lb>chen? <hi
+                        rend="underline">Herrlich</hi> wäre es wir<lb></lb>gingen zusammen durch <placeName
+                        ref="Register.xml#o_07">Holland</placeName>.<lb></lb> Ihre mir liebe verehrte <rs
+                        ref="Register.xml#p_06">Frau Gemahlin</rs><lb></lb>innigst grüßen. <rs
+                        ref="Register.xml#p_04">Ich</rs> möcht <rs ref="Register.xml#p_06">Sie</rs>
+                    sehen.<lb></lb>(<rs ref="Register.xml#p_04">Ich</rs> war in <placeName
+                        ref="Register.xml#o_19"><hi rend="underline">Wien</hi></placeName> schwer
+                    krank. Ich<lb></lb>bin traurig und oben drauf Schiff </p><lb></lb>
+                <closer><unclear>Bnai</unclear><note type="editorical"><persName
+                            ref="Register.xml#p_04">Else Lasker-Schüler </persName>unterzeichnet
+                        ihre Briefe meist mit der hebräischen Signatur "B'nai B'rith", was auf
+                        deutsch "Söhne des Bundes" bedeutet. Dabei handelt es sich zumeist um Logen,
+                        die nur Juden und Jüdinnen aufnehmen. </note>
+                    <addName ref="Register.xml#p_04">Jussuf</addName>.<lb></lb></closer>
+            </div>
+
+
+
+
+
+
+
+        </body>
+
+    </text>
+</TEI>

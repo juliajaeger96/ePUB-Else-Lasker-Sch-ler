@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 06. Januar
+                    1924.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">43</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">20
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows blue
+                                    "Korbdeckelmuster".</figDesc>
+                            </figure>
+                        </p>
+
+
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                                  postmark:<stamp><!-- Description if needed--><mentioned><placeName
+                                                  ref="Register.xml#o_03">Berlin</placeName><date
+                                                  when="1924-01-06">06-01-24</date>
+                                            </mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+
+
+
+                    </physDesc>
+
+
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin</settlement>
+                    <geogName ref="Register.xml#k_06">Hotel Koschel</geogName>
+                    <location>
+                        <address>
+                            <addrLine>Motzstr. 78</addrLine>
+                        </address>
+                    </location>
+                    <date when="1924-01-06">6. Jan. 24</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <settlement ref="Register.xml#o_10">Leiden</settlement>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+    </teiHeader>
+    <text type="postcard" facs="43">
+        <body>
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+
+            <pb n="1" facs="./Faksimile/43_01.jpg"/>
+            <div n="1">
+                <dateline><persName ref="Register.xml#p_01">Herrn Direktor<lb></lb> Dr. N.
+                        Beversen</persName><lb></lb>
+                    <placeName ref="Regsiter.xml#o_10">Leiden (Holland)</placeName><lb></lb>
+                    <geogName ref="Regsiter.xml#k_06">Hotel Koschel Motzstr. 78</geogName><lb></lb>
+                    <date when="1924-01-06">6. Jan. 24</date></dateline><lb></lb>
+                <opener><unclear>Loebverehr-<lb></lb>ter</unclear><rs ref="Register.xml#p_01">Herr
+                        Doktor</rs>,</opener><lb></lb>
+                <p>ich weiß nicht<lb></lb>warum? ich<lb></lb>dachte die letzten <unclear>Reimer</unclear><lb></lb>an <rs
+                        ref="Register.xml#p_01">Sie</rs>
+                    <unclear>ehren</unclear> soll!<lb></lb><placeName ref="Register.xml#o_03">Berlin
+                        W.</placeName></p><lb></lb>
+            </div>
+            <pb n="2" facs="./Faksimile/43_02.jpg"/>
+            <div n="2">
+                <p>Der <persName ref="Register.xml#p_02">Cassirer</persName> der <hi
+                        rend="underline">momentan</hi> hier ist,<lb></lb> wohnt jetzt in <placeName
+                        ref="Register.xml#o_02">Amsterdam</placeName>. <rs ref="Register.xml#p_02"
+                        >Er</rs> ließ<lb></lb> mich sozusagen jedes Jahr verhungern<lb></lb> mit <unclear>Andrienz
+                        12</unclear> Büchern in <unclear>fernem</unclear>
+                    <orgName ref="Register.xml#k_03">Ver-<lb></lb>lag</orgName>. für liebe <rs
+                        ref="Register.xml#p_06">Frau Doktor</rs><lb></lb> Lieber verehrter <rs
+                        ref="Register.xml#p_01">Herr Doktor</rs>, Ich habe<lb></lb> <hi rend="underline"
+                            ><unclear>herrbes</unclear></hi>Buch geschrieben - eine <hi
+                        rend="underline">
+                        <name type="bibl" ref="Register.xml#w_05">Bro-<lb></lb>schure</name></hi> gegen
+                    Verleger, Kunsthändler und<lb></lb>über Kunst.<note type="editorical"
+                        source="Register.xml#l_02" n="S.192">Durch die Inflation in den zwanziger
+                        Jahren verarmten viele Künstler, wogegen <persName ref="Register.xml#p_04"
+                            >Else Lasker-Schüler</persName> mit ihrer Anklageschrift <name
+                            type="bibl" ref="Register.xml#w_05">"Ich räume auf!"</name> protestierte
+                        Zudem fühlte sie sich von ihren damaligen Verlegern übervorteilt, was
+                        offensichtlich die Trennung von Cassirer zur Folge hatte. </note> Wollen <rs
+                        ref="Register.xml#p_01">Sie</rs> sie <hi rend="underline">übersetzen</hi>
+                    natür-<lb></lb>lich nicht <unclear>etwa</unclear> umsonst. Ich spreche <hi
+                        rend="underline">Februar</hi><lb></lb>in <placeName ref="Register.xml#o_08"
+                        >Köln</placeName>. Ich komm <placeName ref="Register.xml#o_10"
+                        >Leiden</placeName>. Ihr <rs ref="Register.xml#p_04">Jussuf</rs>.</p><lb></lb>
+
+            </div>
+        </body>
+    </text>
+</TEI>

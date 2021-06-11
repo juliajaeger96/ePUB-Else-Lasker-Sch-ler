@@ -1,0 +1,17 @@
+/* Titel-Seite */
+
+h1{
+    font-size: x-large;
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    clear: left;
+    text-align:center;
+    
+}
+h2, h3, h4{
+    font-size: large;
+    clear: left;
+    text-align:center;
+    
+}

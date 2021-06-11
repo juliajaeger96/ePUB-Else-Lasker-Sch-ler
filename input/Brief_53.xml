@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Else Lasker-Schüler an Nicolaas Johannes Beversen. Berlin, 14. November
+                    1929.</title>
+                <editor>Julia Jäger</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Datenarchitektur zwischen Sammeln und Übernehmen: Editionen im
+                    Wandel</authority>
+            </publicationStmt>
+
+            <sourceDesc>
+
+
+                <msDesc>
+                    <msIdentifier rend="postcard">
+                        <repository>Briefe Else Lasker Schüler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <!--Briefmarken-->
+                        <p><idno type="postcard">53</idno>
+                            <objectType n="1">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">10
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a portrait of Friedrich
+                                    Ebert</figDesc>
+                            </figure>
+                        </p>
+                        <p><idno type="postcard">53</idno>
+                            <objectType n="2">Postmark</objectType> from Germany with the imprint
+                                <quote>Deutsches Reich</quote><measure type="currency">5
+                                Pfennig</measure>
+                            <figure>
+                                <graphic url=""/>
+                                <figDesc>The drawing on the postmark shows a portait of Paul von
+                                    Hindenburg </figDesc>
+                            </figure>
+                        </p>
+                        <!-- Poststempel-->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>postcard with
+                                                  postmark:<stamp><!-- Description if needed--><mentioned><placeName
+                                                  ref="Register.xml#o_03">Berlin</placeName><date
+                                                  when="1929-11-14">14-11-29</date>5-7
+                                            N</mentioned></stamp></p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+
+
+
+                    </physDesc>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <persName ref="Register.xml#p_04">Else Lasker-Schüler</persName></creation>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="Register.xml#p_04">Else Lasker-Schüler </persName>
+                    <settlement ref="Register.xml#o_03">Berlin</settlement>
+                    <geogName ref="Register.xml#k_06">Hotel Sachsenhof</geogName>
+                    <location>
+                        <address>
+                            <addrLine>Motzstr. 78</addrLine>
+                        </address>
+                    </location>
+                    <date when="1929-11-14">14. November 1929</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="Register.xml#p_01">Direktor Dr. N. Beversen </persName>
+                    <region ref="Register.xml#o_07">Holland</region>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+
+
+    </teiHeader>
+    <text type="postcard" facs="53">
+        <body>
+            <!-- edierter Text: handschriftlich; gedruckter Text in Metadaten-->
+
+            <pb n="1" facs="./Faksimile/53_01.jpg"/>
+            <div n="1">
+                <dateline>
+                    <date when="1929-11-14">14-Nov-1929</date><lb/>
+                    <geogName ref="Register.xml#k_06">Der Sachsenhof<lb/>Motzstr.
+                        78</geogName><lb/><placeName ref="Register.xml#o_03">Berlin W</placeName><lb/>
+                    <persName ref="Register.xml#p_04">Frau Else<lb/>Lasker-Schüler</persName><lb/>
+                    <persName ref="Register.xml#p_01">Herrn<lb/>Dir. Dr. N.<lb/>Beversen</persName><lb/>
+                    <add n="1"><del rend="color(violet)" type="overstrike" hand="author"><placeName
+                                ref="Register.xml#o_14">Rotterdam</placeName></del></add><lb/><add
+                        n="1"><del rend="color(violet)" type="overstrike" hand="author" n="2"
+                                ><placeName ref="Register.xml#o_10"
+                        >Leiden</placeName></del></add><lb/><add n="1"><del rend="color(pink)"
+                            type="overstrike" hand="author"><placeName ref="Register.xml#o_17"
+                                >Voorburg</placeName></del></add><lb/><hi rend="underline"
+                            ><placeName ref="Register.xml#o_07"
+                    >Holland</placeName></hi><lb/></dateline>
+            </div>
+            <pb n="2" facs="./Faksimile/53_02.jpg"/>
+            <div n="2">
+                <opener><salute><unclear>Serer</unclear> verehrter Herr<lb/><roleName
+                            ref="Register.xml#p_01">Doktor</roleName></salute></opener>
+                <p>. Erst wie geht es<lb/>Ihrer lieben <rs ref="Register.xml#p_06">Frau</rs>?
+                    Bitte<lb/>grüßt <rs ref="Register.xml#p_01">Sie</rs> von mir von<lb/>Der selbe
+                        <addName ref="Register.xml#p_04">Jussuf</addName>
+                    <addName ref="Register.xml#p_04">Jussuf</addName>. Haben <rs
+                        ref="Register.xml#p_01">Sie</rs> mir friedliche <unclear>Gedanken</unclear><lb/>
+                    <foreign xml:lang="heb">Ha Freha:</foreign><note type="editorical">Kann nicht
+                        eindeutig übersetzt werden. Es könnte sich um eine hebräische Formulierung
+                        handeln.</note><placeName ref="Register.xml#o_14">Rotterdam</placeName>:<placeName><address>
+                            <addrLine>Graaf<lb/>Florisstraat 89</addrLine>
+                        </address></placeName> gelesen habe. <name type="bibl"
+                        ref="Register.xml#w_02">Balla<c type="hyphenation">-</c><lb/>den</name> von
+                    mir, die gefordert wurden.<lb/><hi rend="underline">Bitte</hi>, wenn <rs
+                        ref="Register.xml#p_01">Sie</rs> wollen schreiben <rs
+                        ref="Register.xml#p_01">Sie</rs> den<lb/>Frauen<note type="editorical">nicht
+                        ermittelt</note> dort Sie wollen für mich Logen<c type="hyphenation"
+                    >-</c><lb/>Abende <abbr type="und">u</abbr><unclear>Badin</unclear>vorträge
+                        ver<lb/>anstalten.<note type="editorical" source="Register.xml#l_05"
+                            ><persName ref="Register.xml#p_04">Else Lasker-Schüler</persName> hat
+                        viele Vortragsabende in der <orgName
+                                ref="Register.xml#k_01">Augustin-Keller-Loge</orgName>, die 
+                                1909 gegründet wurde, gehalten. Ursprünglich
+                        waren die sogenannten Bnai Brith-Logen, die engangierte Juden vereinte,
+                        reine Männerorganisationen. Doch bereits 1987 wurde
+                        eine gemischte Loge, für Männer und Frauen gebildet.</note>
+                </p>
+                <closer><salute>alles Liebe<lb/></salute></closer>
+            </div>
+
+
+
+
+        </body>
+
+    </text>
+</TEI>
